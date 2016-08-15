@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ClassDiagram>
-    <Class name="main.java.item.VegBurger" x="780" y="505">
+    <Class name="main.java.item.VegBurger" x="89" y="260">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -10,7 +10,7 @@
             accessors-accepted="false" constructors-accepted="false"/>
         <Extension destinationClassName="main.java.item.Burger"/>
     </Class>
-    <Class name="main.java.item.Burger" x="845" y="359">
+    <Class name="main.java.item.Burger" x="163" y="104">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -20,7 +20,7 @@
             accessors-accepted="false" constructors-accepted="false"/>
         <Extension destinationClassName="main.java.item.Item"/>
     </Class>
-    <Class name="main.java.item.ColdDrink" x="695" y="330">
+    <Class name="main.java.item.ColdDrink" x="117" y="371">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -30,7 +30,7 @@
             accessors-accepted="false" constructors-accepted="false"/>
         <Extension destinationClassName="main.java.item.Item"/>
     </Class>
-    <Class name="main.java.pack.Bottle" x="323" y="527">
+    <Class name="main.java.pack.Bottle" x="632" y="353">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -40,7 +40,7 @@
             accessors-accepted="false" constructors-accepted="false"/>
         <Extension destinationClassName="main.java.pack.Packing"/>
     </Class>
-    <Class name="main.java.item.Pepsi" x="661" y="514">
+    <Class name="main.java.item.Pepsi" x="212" y="518">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -50,7 +50,7 @@
             accessors-accepted="false" constructors-accepted="false"/>
         <Extension destinationClassName="main.java.item.ColdDrink"/>
     </Class>
-    <Class name="main.java.meal.Meal" x="527" y="192">
+    <Class name="main.java.meal.Meal" x="783" y="142">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -62,7 +62,17 @@
             endpointName="items" kind="Simple"/>
         <Communication destinationClassName="main.java.item.Item"/>
     </Class>
-    <Class name="main.java.BuilderPatternDemo" x="336" y="331">
+    <Class name="main.java.item.Coke" x="90" y="512">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="main.java.item.ColdDrink"/>
+    </Class>
+    <Class name="main.java.BuilderPatternDemo" x="989" y="288">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -73,7 +83,7 @@
         <Communication destinationClassName="main.java.meal.MealBilder"/>
         <Communication destinationClassName="main.java.meal.Meal"/>
     </Class>
-    <Class name="main.java.Product" x="153" y="21">
+    <Class name="main.java.pack.Packing" x="581" y="260">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -82,26 +92,7 @@
             default-accepted="false" static-accepted="false"
             accessors-accepted="false" constructors-accepted="false"/>
     </Class>
-    <Class name="main.java.pack.Packing" x="250" y="417">
-        <AttributesDisplayFilter public-accepted="true"
-            private-accepted="true" protected-accepted="true"
-            default-accepted="true" static-accepted="false"/>
-        <MethodDisplayFilter public-accepted="true"
-            private-accepted="false" protected-accepted="false"
-            default-accepted="false" static-accepted="false"
-            accessors-accepted="false" constructors-accepted="false"/>
-    </Class>
-    <Class name="main.java.ConcreteProductB" x="35" y="165">
-        <AttributesDisplayFilter public-accepted="true"
-            private-accepted="true" protected-accepted="true"
-            default-accepted="true" static-accepted="false"/>
-        <MethodDisplayFilter public-accepted="true"
-            private-accepted="false" protected-accepted="false"
-            default-accepted="false" static-accepted="false"
-            accessors-accepted="false" constructors-accepted="false"/>
-        <Extension destinationClassName="main.java.Product"/>
-    </Class>
-    <Class name="main.java.meal.MealBilder" x="466" y="472">
+    <Class name="main.java.meal.MealBilder" x="955" y="144">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -111,17 +102,7 @@
             accessors-accepted="false" constructors-accepted="false"/>
         <Communication destinationClassName="main.java.meal.Meal"/>
     </Class>
-    <Class name="main.java.ConcreteProductA" x="212" y="166">
-        <AttributesDisplayFilter public-accepted="true"
-            private-accepted="true" protected-accepted="true"
-            default-accepted="true" static-accepted="false"/>
-        <MethodDisplayFilter public-accepted="true"
-            private-accepted="false" protected-accepted="false"
-            default-accepted="false" static-accepted="false"
-            accessors-accepted="false" constructors-accepted="false"/>
-        <Extension destinationClassName="main.java.Product"/>
-    </Class>
-    <Class name="main.java.pack.Wrapper" x="184" y="527">
+    <Class name="main.java.pack.Wrapper" x="515" y="356">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -131,7 +112,7 @@
             accessors-accepted="false" constructors-accepted="false"/>
         <Extension destinationClassName="main.java.pack.Packing"/>
     </Class>
-    <Class name="main.java.item.chickenBurger" x="924" y="508">
+    <Class name="main.java.item.chickenBurger" x="209" y="251">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
@@ -141,7 +122,7 @@
             accessors-accepted="false" constructors-accepted="false"/>
         <Extension destinationClassName="main.java.item.Burger"/>
     </Class>
-    <Class name="main.java.item.Item" x="736" y="171">
+    <Class name="main.java.item.Item" x="612" y="114">
         <AttributesDisplayFilter public-accepted="true"
             private-accepted="true" protected-accepted="true"
             default-accepted="true" static-accepted="false"/>
