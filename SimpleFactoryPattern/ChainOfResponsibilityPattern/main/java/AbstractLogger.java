@@ -13,7 +13,7 @@ public abstract class AbstractLogger {
 		this.nextLogger = nextLogger;
 	}
 	
-	public  void logMessage(int level, String message) {
+	public void logMessage(int level, String message) {
 		if(this.level <= level)
 			write(message);
 		if(nextLogger != null)
